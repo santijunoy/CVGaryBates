@@ -1,9 +1,8 @@
-document.getElementById('boton_ocultar').addEventListener('click', function(){
-    console.log()
-    document.getElementById('div1').style.display = 'none' ;
+
+document.getElementById('agregar_color').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'green' ;
 })
 
-document.getElementById('boton_mostrar').addEventListener('click', function(){
-    console.log()
-    document.getElementById('div1').style.display = '' ;
+document.getElementById('quitar_color').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'white' ;
 })
